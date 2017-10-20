@@ -15,7 +15,6 @@
     padding: 16px;
     font-size: 5px;
     border: none;
-    cursor: pointer;
 }
 
 .dropdown {
@@ -183,16 +182,6 @@ background-color: white;
 	 vertical-align: top;
 	 margin-top: 40px;
  }
-.dropdown{
-	float: right;
-	left: -500px;
-	top: -100px;
-}
-.dropdown-content{
-	font-size: 20px;
-	display: flex;
-	background-color: #ffc400;
-}
 .dropbtn{
 	display: none;
 }
@@ -208,6 +197,9 @@ background-color: white;
 	margin-left: 800px;
 	position: relative;
 	top: -150px;
+}
+.dropdown-content a{
+
 }
 
 }

@@ -56,8 +56,7 @@ table {
   color: white;
   padding: 16px;
   font-size: 5px;
-  border: none;
-  cursor: pointer; }
+  border: none; }
 
 .dropdown {
   position: relative;
@@ -209,16 +208,6 @@ table {
     padding-bottom: 50px;
     vertical-align: top;
     margin-top: 40px; }
-
-  .dropdown {
-    float: right;
-    left: -500px;
-    top: -100px; }
-
-  .dropdown-content {
-    font-size: 20px;
-    display: flex;
-    background-color: #ffc400; }
 
   .dropbtn {
     display: none; }
@@ -624,6 +613,10 @@ h1, h2 {
   margin-left: 80px;
   line-height: 3.5; }
 
+.techcal a {
+  text-decoration: none;
+  color: black; }
+
 .subheadingcal {
   color: white;
   font-size: 320%;
@@ -683,7 +676,7 @@ h1, h2 {
   font-size: 140%; }
 
 .paragraphcal {
-  line-height: 3.0; }
+  line-height: 1.7; }
 
 .linkscal {
   line-height: 3.0;
@@ -788,9 +781,6 @@ span {
     background-color: #ffc400; }
 
   .dropbtncal {
-    display: none; }
-
-  .upcomngcal {
-    line-height: none; } }
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
