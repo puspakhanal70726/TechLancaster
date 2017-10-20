@@ -49,7 +49,9 @@ table {
 
 .tech {
   margin-left: 40px;
-  line-height: 3.5; }
+  line-height: 3.5;
+  text-decoration: none;
+  color: black; }
 
 .dropdown {
   background-color: #ffc400;
