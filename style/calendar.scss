@@ -13,8 +13,10 @@ h1, h2{
   width: 100%;
   margin-left: 80px;
   line-height: 3.5;
-
+  text-decoration: none;
 }
+.headercal .techcal a {
+	text-decoration: none;
 
 .subheadingcal{
   color: white;
@@ -80,7 +82,7 @@ h1, h2{
  font-size: 140%;
 }
 .paragraphcal{
-  line-height: 3.0;
+  line-height: 1.5;
 }
 .linkscal{
 line-height: 3.0;
@@ -188,10 +190,7 @@ background-color: white;
 	display: flex;
 	background-color: #ffc400;
 }
-.dropbtncal{
-	display: none;
-}
-.upcomngcal{
-  line-height: none;
+.bropbtncal{
+  display: none;
 }
 }
